@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda
+.env
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+
+# Results
+results/*
+
+# Models
+models/*
+
+# API Keys
+config/secrets.yaml
+
+# Logs
+*.log
+
+# macOS
+.DS_Store

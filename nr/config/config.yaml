@@ -1,0 +1,19 @@
+project:
+  name: NiRich-AI-Screening
+
+host_material:
+  formula: LiNi0.9Mn0.1O2
+
+boron:
+  concentration: 1.0
+
+machine_learning:
+  model: GaussianProcessRegression
+
+optimization:
+  objectives:
+    - Capacity
+    - FastCharging
+    - Cycling
+    - Thermal
+    - Cost
